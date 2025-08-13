@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Razique Hasan | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS Scroll Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    /* Project description bold & colored */
+    .project-description {
+      font-weight: 700;
+      color: #2196f3; /* Bright blue, adjust if needed */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+<header>
+  <a href="#" class="logo">Razique Hasan</a>
+  <nav class="nav-links">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+</header>
+
+    <div class="dark-mode-toggle">
+      <label>
+        <input type="checkbox" id="darkToggle" />
+        🌙 Dark Mode
+      </label>
+    </div>
+
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-up">
+      <img src="images/profile photo.jpg" alt="Razique Hasan" class="profile-pic">
+      <div class="hero-text">
+        <h2>Hi, I'm Razique 👋</h2>
+        <p>Full Stack Developer | MERN | TypeScript | AWS Certified</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>
+      Passionate Computer Science student with hands-on experience in building full-stack applications using MERN, TypeScript, and modern frameworks. Strong foundation in problem-solving, database design, and system architecture.
+    </p>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" data-aos="fade-left">
+    <h2>Education</h2>
+    <ul class="edu-list">
+      <li>
+        <strong>B.Tech - Computer Science & Engineering</strong><br />
+        Maulana Azad College of Engineering and Technology, Patna<br />
+        <span class="edu-year">2023 – 2027</span>
+      </li>
+      <li>
+        <strong>12th (CBSE) – 70%</strong><br />
+        St. Jude’s Vidyalaya, Patna<br />
+        <span class="edu-year">2021 – 2023</span>
+      </li>
+      <li>
+        <strong>10th – 91.8%</strong><br />
+        St. Jude’s Vidyalaya, Patna<br />
+        <span class="edu-year">2020 – 2021</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <img src="images/project1.png" alt="Syllabus App" class="project-thumb" />
+      <h3>
+        <a href="https://syllabus-wvoa.onrender.com/" target="_blank">Syllabus Web Application (CDAC Internship)</a>
+      </h3>
+      <p class="project-description">🔧 <strong>Tech Stack:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+      <p class="project-description">📚 Built during my internship at CDAC. This web app provides a structured syllabus display system for students. It includes syllabus modules, course details, and responsive UI to support different devices.</p>
+    </div>
+
+    <div class="project">
+      <img src="images/project2.jpeg" alt="Post App" class="project-thumb" />
+      <h3>
+        <a href="https://github.com/raziquehasan/post-app" target="_blank">Post App</a>
+      </h3>
+      <p class="project-description">🔧 <strong>Tech Stack:</strong> MERN Stack (MongoDB, Express, React, Node.js)</p>
+      <p class="project-description">📝 A full-stack web app where users can create, view, and delete posts. Implements CRUD functionality, MongoDB integration, and user-friendly frontend with React.</p>
+    </div>
+
+    <div class="project">
+      <img src="images/project3.png" alt="Jarvis AI" class="project-thumb" />
+      <h3>
+        <a href="https://github.com/raziquehasan/JARVIS-AI" target="_blank">JARVIS-AI (Virtual Assistant)</a>
+      </h3>
+      <p class="project-description">🔧 <strong>Tech Stack:</strong> Python, SpeechRecognition, pyttsx3, Wikipedia API</p>
+      <p class="project-description">🧠 A desktop-based virtual assistant that responds to voice commands. Simulates an AI assistant like "Jarvis" from Iron Man.</p>
+    </div>
+
+    <div class="project">
+      <img src="images/project4.png" alt="Scatch E-commerce" class="project-thumb" />
+      <h3>
+        <a href="http://scatch-7yje.onrender.com" target="_blank">Scatch E-commerce Website</a>
+      </h3>
+      <p class="project-description">🔧 <strong>Tech Stack:</strong> MERN Stack, Stripe API, Redux</p>
+      <p class="project-description">🛒 Full-stack e-commerce website with cart functionality and payment integration. Supports browsing products, adding to cart, and secure checkout.</p>
+      <p class="project-description">GitHub: <a href="https://github.com/raziquehasan/scatch" target="_blank">https://github.com/raziquehasan/scatch</a></p>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" data-aos="fade-right">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div>
+        <h4>Languages</h4>
+        <p>JavaScript, TypeScript, Python, C, C++</p>
+      </div>
+      <div>
+        <h4>Frameworks</h4>
+        <p>React, Express.js, Gin</p>
+      </div>
+      <div>
+        <h4>Tools</h4>
+        <p>Docker, Git, Postman, Firebase</p>
+      </div>
+      <div>
+        <h4>Web</h4>
+        <p>HTML, CSS, Node.js</p>
+      </div>
+      <div>
+        <h4>Concepts</h4>
+        <p>DSA, OOP, REST APIs, Authentication</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <!-- ===== CONTACT ===== -->
+<footer id="contact" data-aos="fade-up">
+  <h2>Contact Me</h2>
+  <form id="contact-form" novalidate>
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+    <p id="form-message" style="margin-top: 1rem; font-weight: 600;"></p>
+  </form>
+  <div class="contact-info" style="margin-top: 2rem; font-size: 1rem; color: white; text-align:center;">
+    <p>Email: <a href="mailto:hasanrazique@gmail.com">hasanrazique@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/raziquehasan" target="_blank" rel="noopener noreferrer">raziquehasan</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/razique-hasan-73a2832a2/" target="_blank" rel="noopener noreferrer">razique-hasan</a></p>
+  </div>
+</footer>
+
+
+  <!-- AOS Library -->
+  <!-- AOS Library -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
